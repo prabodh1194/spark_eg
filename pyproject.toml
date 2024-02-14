@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "template"
+version = "0.1.0"
+description = ""
+authors = ["Prabodh Agarwal <prabodh1194@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
