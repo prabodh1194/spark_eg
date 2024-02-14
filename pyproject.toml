@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+deltalake = "^0.15.3"
+datafusion = "^35.0.0"
+pyspark = "^3.5.0"
+roapi = "^0.10.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.8.0"
